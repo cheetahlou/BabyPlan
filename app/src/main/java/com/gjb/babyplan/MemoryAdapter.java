@@ -92,6 +92,7 @@ public class MemoryAdapter extends BaseAdapter {
               //  listView.setAdapter(new MemoryAdapter(context,memlist));//想进入发表的内容修改界面来着
             }
         });
+
         //删除该列表项的宝贝时刻
         holder.btnmemdelete.setOnClickListener(new View.OnClickListener() {
             @Override
